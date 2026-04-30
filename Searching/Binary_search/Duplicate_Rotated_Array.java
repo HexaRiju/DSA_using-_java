@@ -1,4 +1,4 @@
-package com.java.DSA.Arrays.Binary_search;
+package com.java.DSA.Searching.Binary_search;
 
 public class Duplicate_Rotated_Array {
 
