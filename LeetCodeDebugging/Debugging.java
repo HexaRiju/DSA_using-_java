@@ -1,5 +1,6 @@
 package com.java.DSA.LeetCodeDebugging;
 
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Debugging {
@@ -30,8 +31,22 @@ public class Debugging {
 //        System.out.println(Arrays.toString(arr));
 //        Solution6 solution6 = new Solution6();
 //        System.out.println(solution6.rob(arr));
-        Solution7 solution7 = new Solution7();
-        System.out.println(solution7.canJump(new int[]{3,2,1,0,4}));
+//        Solution7 solution7 = new Solution7();
+//        System.out.println(solution7.canJump(new int[]{3,2,1,0,4}));
+//        Solution8 solution8 = new Solution8();
+//        System.out.println(solution8.search(new int[]{1,0,1,1,1}, 0));
+//        Solution9 solution9 = new Solution9();
+//        System.out.println(solution9.findMin(new int[]{13,15,17,11}));
+//        Solution10 solution10 = new Solution10();
+//        System.out.println(Arrays.toString(solution10.findRightInterval(new int[][]{{1,4},{2,3},{3,4}})));
+//        Solution11 solution11 = new Solution11();
+//        System.out.println(solution11.reachNumber(-3));//** very importent concept.
+//        Solution12 solution12 = new Solution12();
+//        System.out.println(solution12.maxValue(6,1,10));// good question
+//        Solution13 solution13 = new Solution13();
+//        System.out.println(solution13.minEatingSpeed(new int[]{805306368,805306368,805306368},1000000000));
+        Solution14 solution14 = new Solution14();
+        System.out.println(solution14.minAbsoluteSumDiff(new int[] {1,7,5}, new int[] {2,3,5}));
     }
     public static int specialArray(int[] nums) {
         int x = nums.length;
