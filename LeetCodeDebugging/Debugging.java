@@ -45,11 +45,15 @@ public class Debugging {
 //        System.out.println(solution12.maxValue(6,1,10));// good question
 //        Solution13 solution13 = new Solution13();
 //        System.out.println(solution13.minEatingSpeed(new int[]{805306368,805306368,805306368},1000000000));
-        Solution14 solution14 = new Solution14();
-        System.out.println(solution14.minAbsoluteSumDiff(new int[] {1,7,5}, new int[] {2,3,5}));
+//        Solution14 solution14 = new Solution14();
+//        System.out.println(solution14.minAbsoluteSumDiff(new int[] {1,7,5}, new int[] {2,3,5}));
+        Solution15 solution15 = new Solution15();
+        System.out.println(solution15.maxFrequency(new int[]{3,9,6},2));
+//        Solution16 solution16 = new Solution16();
+//        System.out.println(solution16.shipWithinDays(new int[]{1,2,3,1,1},4));
     }
-    public static int specialArray(int[] nums) {
-        int x = nums.length;
+        public static int specialArray(int[] nums) {
+            int x = nums.length;
         int count = 0;
         for(int i = x; i >= 0; i--){
             for(int j = 0; j < x; j++){
