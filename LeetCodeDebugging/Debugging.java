@@ -1,5 +1,7 @@
 package com.java.DSA.LeetCodeDebugging;
 
+
+
 import java.sql.SQLOutput;
 import java.util.*;
 
@@ -22,7 +24,7 @@ public class Debugging {
 //        int[] arr1 = new int[]{-1,1,0,-3,0};
 //        System.out.println(Arrays.toString(new Solution2().productExceptSelf(arr1)));
         //System.out.println(new Solution3().canJump(new int[]{3,2,1,0,4}));
-        int[] arr = new int[]{2,1,1,2};
+//        int[] arr = new int[]{2,1,1,2};
 //        Solution5 s = new Solution5();
 //        s.sortColors(arr);
 //        Solution4 s = new Solution4();
@@ -47,10 +49,19 @@ public class Debugging {
 //        System.out.println(solution13.minEatingSpeed(new int[]{805306368,805306368,805306368},1000000000));
 //        Solution14 solution14 = new Solution14();
 //        System.out.println(solution14.minAbsoluteSumDiff(new int[] {1,7,5}, new int[] {2,3,5}));
-        Solution15 solution15 = new Solution15();
-        System.out.println(solution15.maxFrequency(new int[]{3,9,6},2));
+//        Solution15 solution15 = new Solution15();
+//        System.out.println(solution15.maxFrequency(new int[]{3,9,6},2));
 //        Solution16 solution16 = new Solution16();
-//        System.out.println(solution16.shipWithinDays(new int[]{1,2,3,1,1},4));
+////        System.out.println(solution16.shipWithinDays(new int[]{1,2,3,1,1},4));
+//          Solution17 sol = new Solution17();
+//          System.out.println(sol.thirdMax(new int[] {-1,-2,-3,-4}));
+//          Solution18 sol2 = new Solution18();
+//        System.out.println(Arrays.toString(sol2.sortArrayByParityII(new int[]{648,831,560,986,192,424,997,829,897,843})));
+//        Solution19 sol3 = new Solution19();
+//        System.out.println(sol3.largestPerimeter(new int[]{1,2,1,10}));
+        Solution20 sol4 = new Solution20();
+//        System.out.println(Arrays.deepToString(sol4.allCellsDistOrder(2,2,0,1)));
+        System.out.println(sol4.allCellsDistOrder(2,2,0,1));
     }
         public static int specialArray(int[] nums) {
             int x = nums.length;
