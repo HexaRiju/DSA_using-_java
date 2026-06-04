@@ -59,9 +59,31 @@ public class Debugging {
 //        System.out.println(Arrays.toString(sol2.sortArrayByParityII(new int[]{648,831,560,986,192,424,997,829,897,843})));
 //        Solution19 sol3 = new Solution19();
 //        System.out.println(sol3.largestPerimeter(new int[]{1,2,1,10}));
-        Solution20 sol4 = new Solution20();
+        //Solution20 sol4 = new Solution20();
 //        System.out.println(Arrays.deepToString(sol4.allCellsDistOrder(2,2,0,1)));
-        System.out.println(sol4.allCellsDistOrder(2,2,0,1));
+        //System.out.println(sol4.allCellsDistOrder(2,2,0,1));
+        //System.out.println(Arrays.deepToString(sol4.allCellsDistOrder1(2,2,0,1)));
+//        Solution21 sol3 = new Solution21();
+//        System.out.println(sol3.minimumAbsDifference(new int[]{3,8,-10,23,19,-4,-14,27}));
+//        Solution22 sol2 = new Solution22();
+//        System.out.println(Arrays.toString(sol2.sortByBits(new int[]{1024,512,256,128,64,32,16,8,4,2,1})));
+//        Solution23 sol3 = new Solution23();
+//        System.out.println(sol3.longestPalindrome("abccccdd"));
+//        Solution24 sol24 = new Solution24();
+//        System.out.println(sol24.specialArray(new int[]{3,5}));
+//        Solution25 sol25 = new Solution25();
+//        System.out.println(sol25.longestKSubstr("aabacbebebe",3));
+//        Solution26 sol26 = new Solution26();
+//        System.out.println(sol26.threeSumClosest(new int[]{-1,2,1,-4},1));
+//        Solution27 sol27 = new Solution27();
+//        System.out.println(sol27.largestNumber(new int[]{3,30,34,5,9}));
+//        Solution28 sol28 = new Solution28();
+//        System.out.println(Arrays.deepToString(sol28.merge(new int[][]{{1,4},{0,2},{3,5}})));
+//        Solution29 sol29 = new Solution29();
+//        System.out.println(sol29.totalFruit(new int[]{0,1,2,2}));
+        Solution30 sol30 = new Solution30();
+        System.out.println(sol30.interpret("G()(al)"));
+
     }
         public static int specialArray(int[] nums) {
             int x = nums.length;
