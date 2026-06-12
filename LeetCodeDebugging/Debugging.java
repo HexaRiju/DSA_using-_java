@@ -81,8 +81,26 @@ public class Debugging {
 //        System.out.println(Arrays.deepToString(sol28.merge(new int[][]{{1,4},{0,2},{3,5}})));
 //        Solution29 sol29 = new Solution29();
 //        System.out.println(sol29.totalFruit(new int[]{0,1,2,2}));
-        Solution30 sol30 = new Solution30();
-        System.out.println(sol30.interpret("G()(al)"));
+//        Solution30 sol30 = new Solution30();
+//        System.out.println(sol30.interpret("G()(al)"));
+//        Solution31 sol31 = new Solution31();
+//     System.out.println(sol31.reverseWords("Let's take LeetCode contest"));
+//        Solution32 solution32 = new Solution32();
+//        System.out.println(solution32.isLongPressedName( "alex","aaleex"));
+//        System.out.println(solution32.isLongPressedName( "saeed","ssaaedd"));
+//        System.out.println(solution32.isLongPressedName( "rick","kric"));
+//        Solution33 solution33 = new Solution33();
+//        System.out.println(solution33.validPalindrome("deeee"));
+//        Solution34 s = new Solution34();
+//        System.out.println(s.longestCommonPrefix(new String[]{"flower","flower","flower","flower"}));
+//        Solution35 s = new Solution35();
+//        System.out.println(s.romanToInt("MCMXCIV"));
+//        Solution36 s = new Solution36();
+//        System.out.println(s.isValid("()[]{}"));
+//        Solution37 sol = new Solution37();
+//        System.out.println(sol.canJump(new int[]{3,0,8,2,0,0,1}));
+        Solution38 s = new Solution38();
+        System.out.println(s.canReach("0000",2,3));
 
     }
         public static int specialArray(int[] nums) {
