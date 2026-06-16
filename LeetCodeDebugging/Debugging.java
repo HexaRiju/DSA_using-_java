@@ -2,6 +2,7 @@ package com.java.DSA.LeetCodeDebugging;
 
 
 
+
 import java.sql.SQLOutput;
 import java.util.*;
 
@@ -99,9 +100,16 @@ public class Debugging {
 //        System.out.println(s.isValid("()[]{}"));
 //        Solution37 sol = new Solution37();
 //        System.out.println(sol.canJump(new int[]{3,0,8,2,0,0,1}));
-        Solution38 s = new Solution38();
-        System.out.println(s.canReach("0000",2,3));
-
+//        Solution38 sol = new Solution38();
+//        System.out.println(Arrays.toString(sol.topKFrequent(new int[]{1,1,1,2,2,3},2)));
+//        Solution39 sol = new Solution39();
+//        System.out.println(sol.numWays("1101100101"));
+//        Solution40 sol = new Solution40();
+//        System.out.println(Arrays.toString(sol.productExceptSelf(new int[]{1,2,3,4})));
+        Solution41 solution = new Solution41();
+        System.out.println(solution.longestConsecutive(new int[]{1,0,1,2}));
+//        Solution42 solution = new Solution42();
+//        System.out.println(solution.repeatedStringMatch("abaa","aabaa"));
     }
         public static int specialArray(int[] nums) {
             int x = nums.length;
