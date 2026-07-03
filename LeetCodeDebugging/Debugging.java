@@ -106,10 +106,23 @@ public class Debugging {
 //        System.out.println(sol.numWays("1101100101"));
 //        Solution40 sol = new Solution40();
 //        System.out.println(Arrays.toString(sol.productExceptSelf(new int[]{1,2,3,4})));
-        Solution41 solution = new Solution41();
-        System.out.println(solution.longestConsecutive(new int[]{1,0,1,2}));
+//        Solution41 solution = new Solution41();
+//        System.out.println(solution.longestConsecutive(new int[]{1,0,1,2}));
 //        Solution42 solution = new Solution42();
-//        System.out.println(solution.repeatedStringMatch("abaa","aabaa"));
+//        System.out.println(solution.canTransform("RXXLRXRXL","XRLXXRRLX"));
+//        Solution43 s = new Solution43();
+//        System.out.println(s.nextGreaterElement(5321));
+//        Solution44 s = new Solution44();
+//        System.out.println(s.maximumRemovals("a","ab",new int[]{3,1,0}));
+//        Solution45 s = new Solution45();
+//        System.out.println(s.canTransform("X","L"));
+//        Solution46 solution = new Solution46();
+//        System.out.println(solution.trap(new int[]{4,2,0,3,2,5}));
+//        Solution47 sol = new Solution47();
+//        System.out.println(sol.characterReplacement("AABABBA",1));
+        Solution48 sol = new Solution48();
+        System.out.println(sol.checkInclusion("ab", "eidbaooo"));
+
     }
         public static int specialArray(int[] nums) {
             int x = nums.length;

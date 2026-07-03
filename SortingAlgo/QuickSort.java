@@ -1,4 +1,4 @@
-package com.java.DSA.Recursion;
+package com.java.DSA.SortingAlgo;
 
 import java.util.Arrays;
 // quick sort using first element as the pivot

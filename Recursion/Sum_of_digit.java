@@ -8,6 +8,6 @@ public class Sum_of_digit {
         if( n == 0){
             return 0;
         }
-        return sum(n / 10) + n % 10;
+        return n % 10 + sum(n / 10);
     }
 }
